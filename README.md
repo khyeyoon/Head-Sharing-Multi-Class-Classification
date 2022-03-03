@@ -1,6 +1,6 @@
 # Head-Share-Multi-Class-Classification
 
-* A classification network implemented based on resnet 50
+*  classification network implemented based on resnet 50
 
 * Head layers share features using the same network, and subsequent layers are separated for each detailed classification
 
