@@ -1,4 +1,4 @@
-# Head-Share-Multi-Class-Classification
+# Head-Sharing-Multi-Class-Classification
 
 * The classification network implemented based on resnet 50
 
