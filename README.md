@@ -10,11 +10,11 @@ You can set the subnet structure using 'output_feature_list' argument
 
 * model.py 
 
-Classification network 
+    Classification network 
 
 * transform.py 
 
-Augmentation using albumentations
+    Augmentation using albumentations
 
 
 <img src="https://github.com/khyeyoon/Head-Share-Multi-Classification/blob/main/img/task.JPG">
