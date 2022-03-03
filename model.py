@@ -38,7 +38,7 @@ class Multi_Classification_Model(nn.Module):
             exec('self.sub_{} = SubNet({})'.format(i+1,cls_n))
 
     def forward(self,inputs):
-        out = self.head(inputs) #pretrained model
+        out = self.head(inputs) 
 
         for i, net in enumerate(self.net_list):
             exec('feature{} = self.{}(out)'.format(i+1,net))
