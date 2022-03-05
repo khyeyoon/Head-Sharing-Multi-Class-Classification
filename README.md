@@ -25,6 +25,12 @@ You can set the subnet structure using 'output_feature_list' argument
 
 # Comparison: 3 independent models vs ShareNet
 
+* Age, Gender, Mask classification
+
+> 3 independent models : ResNet50
+> 
+> ShareNet : Head-Sharing-Multi-Class-Classification Network(based on ResNet50)
+
 Excluding the age classification model, the results trained with ShareNet converge faster. Also, there was no significant difference in age classification.
 
 ## Age classification
