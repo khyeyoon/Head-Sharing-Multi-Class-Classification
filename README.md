@@ -23,3 +23,15 @@ You can set the subnet structure using 'output_feature_list' argument
 
 <img src="https://github.com/khyeyoon/Head-Share-Multi-Classification/blob/main/img/architecture.JPG">
 
+# Comparison: 3 independent models vs ShareNet
+
+Excluding the age classification model, the results trained with ShareNet converge faster. Also, there was no significant difference in age classification.
+
+## Age classification
+<img src="https://github.com/khyeyoon/Head-Share-Multi-Classification/blob/main/img/wandb_age.JPG">
+
+## Gender classification
+<img src="https://github.com/khyeyoon/Head-Share-Multi-Classification/blob/main/img/wandb_gender.JPG">
+
+## Mask classification
+<img src="https://github.com/khyeyoon/Head-Share-Multi-Classification/blob/main/img/wandb_mask.JPG">
